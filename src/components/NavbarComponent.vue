@@ -14,6 +14,10 @@ const navLinks = [
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
 }
+
+const phoneNumber = ref('5215532092264');
+const message = ref('Hola, quiero cotizar');
+const whatsappUrl = `https://wa.me/${phoneNumber.value}?text=${encodeURIComponent(message.value)}`;
 </script>
 
 <template>
@@ -31,14 +35,14 @@ const toggleMenu = () => {
         <li v-for="link in navLinks" :key="link.href">
           <a
             :href="link.href"
-            class="relative text-gray-700 font-medium hover:text-purple-600 transition-colors duration-300 after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-purple-500 after:to-amber-400 after:transition-all after:duration-300 hover:after:w-full"
+            class="text-sm font-semibold hover:text-primary transition-colors"
           >
             {{ link.label }}
           </a>
         </li>
         <li>
           <a
-            href="#ubicacion"
+            :href="whatsappUrl" target="_blank"
             class="flex items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all"
           >
             WhatsApp
@@ -92,8 +96,8 @@ const toggleMenu = () => {
           </li>
           <li>
             <a
-              href="#ubicacion"
-              class="px-6 py-2.5 rounded-full bg-gradient-to-r from-purple-500 to-amber-500 text-white font-semibold shadow-lg"
+              :href="whatsappUrl" target="_blank"
+              class="flex items-center justify-center rounded-full bg-primary px-6 py-2.5 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all"
               @click="isMenuOpen = false"
             >
               WhatsApp

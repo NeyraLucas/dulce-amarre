@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { RouterLink } from 'vue-router'
 import imgTienda from '../assets/imgs/tienda-holistica.jpeg'
 import imgTerapias from '../assets/imgs/terapias-holisticas.jpeg'
 import imgPsicologia from '../assets/imgs/psicologia-transpersonal.png'
@@ -9,6 +10,7 @@ interface Service {
   description: string
   tag: string
   img: string
+  route: string
 }
 
 const services: Service[] = [
@@ -18,6 +20,7 @@ const services: Service[] = [
     description: 'Productos seleccionados cuidadosamente para elevar tu vibración y transformar tu ritual diario en algo mágico.',
     tag: 'Explorar Tienda',
     img: imgTienda,
+    route: '/boutique-holistica',
   },
   {
     icon: 'self_improvement',
@@ -25,6 +28,7 @@ const services: Service[] = [
     description: 'Reconexión integral a través de diversas técnicas milenarias adaptadas a tus necesidades energéticas actuales.',
     tag: 'Ver Terapias',
     img: imgTerapias,
+    route: '/terapias-holisticas',
   },
   {
     icon: 'psychology',
@@ -32,6 +36,7 @@ const services: Service[] = [
     description: 'Acompañamiento profundo que integra los aspectos espirituales y trascendentales de la experiencia humana.',
     tag: 'Saber más',
     img: imgPsicologia,
+    route: '/psicologia-transpersonal',
   },
 ]
 </script>
@@ -72,10 +77,10 @@ const services: Service[] = [
           <p class="text-slate-600 text-sm leading-relaxed mb-4">
             {{ service.description }}
           </p>
-          <a class="mt-auto text-primary font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all"
-            href="#">
+          <RouterLink :to="service.route"
+            class="mt-auto text-primary font-bold text-sm flex items-center gap-2 group-hover:gap-3 transition-all">
             {{ service.tag }}<span class="material-symbols-outlined text-sm">arrow_forward</span>
-          </a>
+          </RouterLink>
         </div>
       </div>
     </div>

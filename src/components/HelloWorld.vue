@@ -9,7 +9,7 @@ const count = ref(0)
 <template>
   <h1>{{ msg }}</h1>
 
-  <div class="card">
+  <div class="card bg-red-500">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
       Edit
@@ -23,7 +23,7 @@ const count = ref(0)
       >create-vue</a
     >, the official Vue + Vite starter
   </p>
-  <p>
+  <p class="text-3xl font-bold underline">
     Learn more about IDE Support for Vue in the
     <a
       href="https://vuejs.org/guide/scaling-up/tooling.html#ide-support"

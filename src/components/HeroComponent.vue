@@ -16,7 +16,8 @@ const whatsappUrl = `https://wa.me/${phoneNumber.value}?text=${encodeURIComponen
           <div class="flex flex-col gap-4">
             <span class="text-primary font-bold tracking-widest uppercase text-xs">Espacio de Sanación</span>
             <h1 class="text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight text-slate-800">
-              Conecta con tu <span class="text-primary italic">Esencia</span>
+              Conecta con tu <span
+                class="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Esencia</span>
             </h1>
             <p class="text-lg text-slate-600 max-w-lg leading-relaxed">
               Un espacio sagrado dedicado a tu bienestar integral. Descubre herramientas y terapias diseñadas para

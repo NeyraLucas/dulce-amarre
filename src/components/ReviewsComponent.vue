@@ -33,7 +33,7 @@ const reviews: Review[] = [
 </script>
 
 <template>
-  <section id="resenas" class="py-24 px-6 bg-gradient-to-b from-rose-50/50 to-amber-50/30 relative overflow-hidden">
+  <section id="reviews" class="py-24 px-6 bg-gradient-to-b from-rose-50/50 to-amber-50/30 relative overflow-hidden">
     <!-- Decorative -->
     <div class="absolute top-20 right-10 w-64 h-64 bg-rose-200/30 rounded-full blur-3xl" />
     <div class="absolute bottom-20 left-10 w-64 h-64 bg-amber-200/30 rounded-full blur-3xl" />
@@ -42,7 +42,7 @@ const reviews: Review[] = [
       <!-- Header -->
       <div class="text-center mb-16">
         <span class="inline-block px-4 py-1.5 rounded-full bg-amber-100 text-amber-700 text-sm font-semibold mb-4">
-          ⭐ Reseñas de Clientes
+          Reseñas de Clientes
         </span>
         <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
           Voces de

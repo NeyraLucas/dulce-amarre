@@ -61,12 +61,12 @@ const quickLinks = [
                 +52 5532092264
               </a>
             </li>
-            <li class="flex items-start gap-2">
+            <!-- <li class="flex items-start gap-2">
               <span class="material-symbols-outlined text-sm">share</span>
               <a href="mailto:hola@dulceamarre.com" class="hover:text-rose-400 transition-colors duration-300">
                 hola@dulceamarre.com
               </a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>

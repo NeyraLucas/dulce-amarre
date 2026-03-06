@@ -16,7 +16,7 @@ interface Schedule {
 const contactInfo: ContactItem[] = [
   { icon: '📍', label: 'Dirección', value: 'Calle Benito Juárez Nte 8-MZ 027, Santa Clara, 55000 Ecatepec de Morelos, Méx.', link: undefined, iconMaterial: true, iconMaterialName: 'location_on' },
   { icon: '📱', label: 'Teléfono', value: '+52 5532092264', iconMaterial: true, iconMaterialName: 'call' },
-  { icon: '✉️', label: 'Email', value: 'psic.melissa28@gmail.com', link: 'mailto:psic.melissa28@gmail.com', iconMaterial: true, iconMaterialName: 'email' },
+  // { icon: '✉️', label: 'Email', value: 'psic.melissa28@gmail.com', link: 'mailto:psic.melissa28@gmail.com', iconMaterial: true, iconMaterialName: 'email' },
   { icon: '📸', label: 'Instagram', value: '@dulceamarre', link: 'https://instagram.com/dulceamarre', iconMaterial: true, iconMaterialName: 'camera' },
   { icon: '👤', label: 'Facebook', value: 'Psic. Melissa Aranda', link: 'https://www.facebook.com/people/Psic-Melissa-Aranda/100083221934124/?mibextid=D4KYlr', iconMaterial: true, iconMaterialName: 'person' },
 ]

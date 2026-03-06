@@ -21,9 +21,13 @@ import imgTerapias from '../assets/imgs/terapias-holisticas.jpeg'
                         Terapias <span class="text-primary italic">Holísticas</span>
                     </h1>
                     <p class="text-lg text-slate-600 leading-relaxed">
-                        Reconexión integral a través de diversas técnicas milenarias adaptadas a tus necesidades
-                        energéticas actuales. Cada sesión es un viaje hacia tu centro, donde la sanación
-                        comienza desde el interior.
+                        Nuestras Terapias Holísticas están diseñadas para abordar a la persona como un todo integrado.
+                        No solo tratamos síntomas, sino que buscamos la raíz energética y emocional de los bloqueos que
+                        impiden tu plenitud.
+                    </p>
+                    <p class="text-lg text-slate-600 leading-relaxed">
+                        A través de técnicas ancestrales combinadas con sabiduría contemporánea, facilitamos un espacio
+                        seguro para la introspección y la liberación emocional.
                     </p>
                 </div>
                 <div class="lg:w-1/2">
@@ -36,22 +40,22 @@ import imgTerapias from '../assets/imgs/terapias-holisticas.jpeg'
             <!-- Info -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div class="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm text-center">
+                    <span class="material-symbols-outlined text-primary text-3xl mb-3">history</span>
+                    <h3 class="font-bold text-slate-900 mb-2">Regresión a vidas pasadas</h3>
+                    <p class="text-sm text-slate-500">Un encuentro con la historia de tu alma a lo largo de todas tus
+                        reencarnaciones.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm text-center">
+                    <span class="material-symbols-outlined text-primary text-3xl mb-3">self_improvement</span>
+                    <h3 class="font-bold text-slate-900 mb-2">Péndulo Hebreo</h3>
+                    <p class="text-sm text-slate-500">Terapia en dónde puedes sanar y equilibrar tu cuerpo energético.
+                    </p>
+                </div>
+                <div class="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm text-center">
                     <span class="material-symbols-outlined text-primary text-3xl mb-3">healing</span>
                     <h3 class="font-bold text-slate-900 mb-2">Reiki</h3>
                     <p class="text-sm text-slate-500">Canalización de energía universal para restablecer tu equilibrio
                         vital.</p>
-                </div>
-                <div class="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm text-center">
-                    <span class="material-symbols-outlined text-primary text-3xl mb-3">self_improvement</span>
-                    <h3 class="font-bold text-slate-900 mb-2">Meditación Guiada</h3>
-                    <p class="text-sm text-slate-500">Sesiones personalizadas para calmar tu mente y conectar con tu
-                        interior.</p>
-                </div>
-                <div class="p-6 rounded-2xl bg-white border border-gray-100 shadow-sm text-center">
-                    <span class="material-symbols-outlined text-primary text-3xl mb-3">psychiatry</span>
-                    <h3 class="font-bold text-slate-900 mb-2">Aromaterapia</h3>
-                    <p class="text-sm text-slate-500">Aceites esenciales terapéuticos para armonizar cuerpo y espíritu.
-                    </p>
                 </div>
             </div>
         </div>

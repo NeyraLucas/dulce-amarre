@@ -21,9 +21,9 @@ import imgPsicologia from '../assets/imgs/psicologia-transpersonal.png'
                         Psicología <span class="text-primary italic">Transpersonal</span>
                     </h1>
                     <p class="text-lg text-slate-600 leading-relaxed">
-                        Acompañamiento profundo que integra los aspectos espirituales y trascendentales de la
-                        experiencia humana. Un enfoque terapéutico que va más allá de lo convencional para
-                        explorar la totalidad de tu ser.
+                        Un espacio seguro para integrar tu espiritualidad con tu proceso emocional. El acompañamiento
+                        transpersonal va más allá de lo convencional, invitándote a explorar la totalidad de tu ser para
+                        sanar desde la raíz y encontrar un propósito más profundo."
                     </p>
                 </div>
                 <div class="lg:w-1/2">

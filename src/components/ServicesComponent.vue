@@ -53,10 +53,10 @@ const services: Service[] = [
       <div class="text-center mb-16">
         <h2 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4">
           Nuestros <span
-            class="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Productos</span>
+            class="bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Servicios</span>
         </h2>
         <p class="text-lg text-gray-500 max-w-2xl mx-auto">
-          Cada producto es elaborado artesanalmente con ingredientes de primera calidad
+          Descubre todo lo que tenemos para ti
         </p>
       </div>
 

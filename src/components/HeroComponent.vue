@@ -51,14 +51,14 @@ const whatsappUrl = `https://wa.me/${phoneNumber.value}?text=${encodeURIComponen
         <div class="text-center">
           <div
             class="text-3xl md:text-4xl font-extrabold bg-primary from-rose-500 to-pink-500 bg-clip-text text-transparent">
-            500+</div>
+            100+</div>
           <div class="text-sm text-gray-500 mt-1">Clientes felices</div>
         </div>
         <div class="text-center">
           <div
             class="text-3xl md:text-4xl font-extrabold bg-primary from-pink-500 to-amber-500 bg-clip-text text-transparent">
-            50+</div>
-          <div class="text-sm text-gray-500 mt-1">Sabores únicos</div>
+            20+</div>
+          <div class="text-sm text-gray-500 mt-1">Productos</div>
         </div>
         <div class="text-center">
           <div

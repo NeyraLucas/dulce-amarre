@@ -56,7 +56,7 @@ const quickLinks = [
               <span>Calle Benito Juárez Nte 8-MZ 027, Santa Clara, 55000 Ecatepec de Morelos, Méx.</span>
             </li>
             <li class="flex items-start gap-2">
-              <span class="material-symbols-outlined text-sm">email</span>
+              <span class="material-symbols-outlined text-sm">phone</span>
               <a href="tel:+5532092264" class="hover:text-rose-400 transition-colors duration-300">
                 +52 5532092264
               </a>

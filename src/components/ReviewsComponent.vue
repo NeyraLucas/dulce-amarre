@@ -22,12 +22,10 @@ const reviews: Review[] = [
     product: 'Cupcakes personalizados',
   },
   {
-    name: 'Ana López',
     avatar: '👩🏽',
     rating: 5,
-    comment: 'La mesa de postres para mi evento corporativo fue espectacular. Profesionalismo y calidad en cada detalle. ¡100% recomendados!',
-    date: 'Hace 3 semanas',
-    product: 'Mesa de postres',
+    comment: 'Melissa es una terapeuta única, tiene dones que ha puesto a disposición y estoy muy agradecido con ella. Yo llegué sin poder prácticamente caminar, y a través de sus manos y su conocimiento en Reiki, hoy estoy mejor que nunca.',
+    product: 'Reiki',
   },
 ]
 </script>
